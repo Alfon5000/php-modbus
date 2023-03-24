@@ -1,0 +1,27 @@
+{
+  "name": "alfonso/php-modbus",
+  "keywords": [
+    "alfonso",
+    "php-modbus",
+    "phpmodbus",
+    "modbus"
+  ],
+  "description": "Modbus library for PHP 7 or later",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "PhpModbus\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alfon5000",
+      "email": "alfonlai97@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-sockets": "*"
+  }
+}
